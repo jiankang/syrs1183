@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA3FDB51E8B917E009CE5D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3FDB41E8B917E009CE5D4 /* AppDelegate.m */; };
+		AAA3FDB81E8B917E009CE5D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3FDB71E8B917E009CE5D4 /* main.m */; };
+		AAA3FDBB1E8B917E009CE5D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3FDBA1E8B917E009CE5D4 /* ViewController.m */; };
+		AAA3FDBD1E8B917E009CE5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA3FDBC1E8B917E009CE5D4 /* Assets.xcassets */; };
+		AAA3FDC01E8B917E009CE5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA3FDBE1E8B917E009CE5D4 /* Main.storyboard */; };
+		AAA3FDCB1E8B917E009CE5D4 /* flashcontrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3FDCA1E8B917E009CE5D4 /* flashcontrolTests.m */; };
+		AAA3FDD61E8B917E009CE5D4 /* flashcontrolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3FDD51E8B917E009CE5D4 /* flashcontrolUITests.m */; };
+		AAA3FDE51E8B9245009CE5D4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA3FDE41E8B9245009CE5D4 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA3FDC71E8B917E009CE5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA3FDA81E8B917E009CE5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA3FDAF1E8B917E009CE5D4;
+			remoteInfo = flashcontrol;
+		};
+		AAA3FDD21E8B917E009CE5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA3FDA81E8B917E009CE5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA3FDAF1E8B917E009CE5D4;
+			remoteInfo = flashcontrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA3FDB01E8B917E009CE5D4 /* flashcontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashcontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA3FDB31E8B917E009CE5D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAA3FDB41E8B917E009CE5D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAA3FDB71E8B917E009CE5D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAA3FDB91E8B917E009CE5D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAA3FDBA1E8B917E009CE5D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAA3FDBC1E8B917E009CE5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA3FDBF1E8B917E009CE5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA3FDC11E8B917E009CE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA3FDC61E8B917E009CE5D4 /* flashcontrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcontrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA3FDCA1E8B917E009CE5D4 /* flashcontrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flashcontrolTests.m; sourceTree = "<group>"; };
+		AAA3FDCC1E8B917E009CE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA3FDD11E8B917E009CE5D4 /* flashcontrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcontrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA3FDD51E8B917E009CE5D4 /* flashcontrolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flashcontrolUITests.m; sourceTree = "<group>"; };
+		AAA3FDD71E8B917E009CE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA3FDE41E8B9245009CE5D4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA3FDAD1E8B917E009CE5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3FDE51E8B9245009CE5D4 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDC31E8B917E009CE5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDCE1E8B917E009CE5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA3FDA71E8B917E009CE5D4 = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDB21E8B917E009CE5D4 /* flashcontrol */,
+				AAA3FDC91E8B917E009CE5D4 /* flashcontrolTests */,
+				AAA3FDD41E8B917E009CE5D4 /* flashcontrolUITests */,
+				AAA3FDE31E8B9244009CE5D4 /* Frameworks */,
+				AAA3FDB11E8B917E009CE5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA3FDB11E8B917E009CE5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDB01E8B917E009CE5D4 /* flashcontrol.app */,
+				AAA3FDC61E8B917E009CE5D4 /* flashcontrolTests.xctest */,
+				AAA3FDD11E8B917E009CE5D4 /* flashcontrolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA3FDB21E8B917E009CE5D4 /* flashcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDB31E8B917E009CE5D4 /* AppDelegate.h */,
+				AAA3FDB41E8B917E009CE5D4 /* AppDelegate.m */,
+				AAA3FDB91E8B917E009CE5D4 /* ViewController.h */,
+				AAA3FDBA1E8B917E009CE5D4 /* ViewController.m */,
+				AAA3FDBC1E8B917E009CE5D4 /* Assets.xcassets */,
+				AAA3FDBE1E8B917E009CE5D4 /* Main.storyboard */,
+				AAA3FDC11E8B917E009CE5D4 /* Info.plist */,
+				AAA3FDB61E8B917E009CE5D4 /* Supporting Files */,
+			);
+			path = flashcontrol;
+			sourceTree = "<group>";
+		};
+		AAA3FDB61E8B917E009CE5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDB71E8B917E009CE5D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAA3FDC91E8B917E009CE5D4 /* flashcontrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDCA1E8B917E009CE5D4 /* flashcontrolTests.m */,
+				AAA3FDCC1E8B917E009CE5D4 /* Info.plist */,
+			);
+			path = flashcontrolTests;
+			sourceTree = "<group>";
+		};
+		AAA3FDD41E8B917E009CE5D4 /* flashcontrolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDD51E8B917E009CE5D4 /* flashcontrolUITests.m */,
+				AAA3FDD71E8B917E009CE5D4 /* Info.plist */,
+			);
+			path = flashcontrolUITests;
+			sourceTree = "<group>";
+		};
+		AAA3FDE31E8B9244009CE5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3FDE41E8B9245009CE5D4 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA3FDAF1E8B917E009CE5D4 /* flashcontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA3FDDA1E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrol" */;
+			buildPhases = (
+				AAA3FDAC1E8B917E009CE5D4 /* Sources */,
+				AAA3FDAD1E8B917E009CE5D4 /* Frameworks */,
+				AAA3FDAE1E8B917E009CE5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flashcontrol;
+			productName = flashcontrol;
+			productReference = AAA3FDB01E8B917E009CE5D4 /* flashcontrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA3FDC51E8B917E009CE5D4 /* flashcontrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA3FDDD1E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrolTests" */;
+			buildPhases = (
+				AAA3FDC21E8B917E009CE5D4 /* Sources */,
+				AAA3FDC31E8B917E009CE5D4 /* Frameworks */,
+				AAA3FDC41E8B917E009CE5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA3FDC81E8B917E009CE5D4 /* PBXTargetDependency */,
+			);
+			name = flashcontrolTests;
+			productName = flashcontrolTests;
+			productReference = AAA3FDC61E8B917E009CE5D4 /* flashcontrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA3FDD01E8B917E009CE5D4 /* flashcontrolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA3FDE01E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrolUITests" */;
+			buildPhases = (
+				AAA3FDCD1E8B917E009CE5D4 /* Sources */,
+				AAA3FDCE1E8B917E009CE5D4 /* Frameworks */,
+				AAA3FDCF1E8B917E009CE5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA3FDD31E8B917E009CE5D4 /* PBXTargetDependency */,
+			);
+			name = flashcontrolUITests;
+			productName = flashcontrolUITests;
+			productReference = AAA3FDD11E8B917E009CE5D4 /* flashcontrolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA3FDA81E8B917E009CE5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jim Wang";
+				TargetAttributes = {
+					AAA3FDAF1E8B917E009CE5D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AAA3FDC51E8B917E009CE5D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA3FDAF1E8B917E009CE5D4;
+					};
+					AAA3FDD01E8B917E009CE5D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAA3FDAF1E8B917E009CE5D4;
+					};
+				};
+			};
+			buildConfigurationList = AAA3FDAB1E8B917E009CE5D4 /* Build configuration list for PBXProject "flashcontrol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA3FDA71E8B917E009CE5D4;
+			productRefGroup = AAA3FDB11E8B917E009CE5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA3FDAF1E8B917E009CE5D4 /* flashcontrol */,
+				AAA3FDC51E8B917E009CE5D4 /* flashcontrolTests */,
+				AAA3FDD01E8B917E009CE5D4 /* flashcontrolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA3FDAE1E8B917E009CE5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3FDBD1E8B917E009CE5D4 /* Assets.xcassets in Resources */,
+				AAA3FDC01E8B917E009CE5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDC41E8B917E009CE5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDCF1E8B917E009CE5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA3FDAC1E8B917E009CE5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3FDBB1E8B917E009CE5D4 /* ViewController.m in Sources */,
+				AAA3FDB81E8B917E009CE5D4 /* main.m in Sources */,
+				AAA3FDB51E8B917E009CE5D4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDC21E8B917E009CE5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3FDCB1E8B917E009CE5D4 /* flashcontrolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA3FDCD1E8B917E009CE5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3FDD61E8B917E009CE5D4 /* flashcontrolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA3FDC81E8B917E009CE5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA3FDAF1E8B917E009CE5D4 /* flashcontrol */;
+			targetProxy = AAA3FDC71E8B917E009CE5D4 /* PBXContainerItemProxy */;
+		};
+		AAA3FDD31E8B917E009CE5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA3FDAF1E8B917E009CE5D4 /* flashcontrol */;
+			targetProxy = AAA3FDD21E8B917E009CE5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAA3FDBE1E8B917E009CE5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA3FDBF1E8B917E009CE5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA3FDD81E8B917E009CE5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAA3FDD91E8B917E009CE5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAA3FDDB1E8B917E009CE5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAA3FDDC1E8B917E009CE5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAA3FDDE1E8B917E009CE5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcontrol.app/Contents/MacOS/flashcontrol";
+			};
+			name = Debug;
+		};
+		AAA3FDDF1E8B917E009CE5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcontrol.app/Contents/MacOS/flashcontrol";
+			};
+			name = Release;
+		};
+		AAA3FDE11E8B917E009CE5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flashcontrol;
+			};
+			name = Debug;
+		};
+		AAA3FDE21E8B917E009CE5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = flashcontrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.flashcontrolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flashcontrol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA3FDAB1E8B917E009CE5D4 /* Build configuration list for PBXProject "flashcontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA3FDD81E8B917E009CE5D4 /* Debug */,
+				AAA3FDD91E8B917E009CE5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA3FDDA1E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA3FDDB1E8B917E009CE5D4 /* Debug */,
+				AAA3FDDC1E8B917E009CE5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA3FDDD1E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA3FDDE1E8B917E009CE5D4 /* Debug */,
+				AAA3FDDF1E8B917E009CE5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAA3FDE01E8B917E009CE5D4 /* Build configuration list for PBXNativeTarget "flashcontrolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA3FDE11E8B917E009CE5D4 /* Debug */,
+				AAA3FDE21E8B917E009CE5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA3FDA81E8B917E009CE5D4 /* Project object */;
+}
